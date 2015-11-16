@@ -60,11 +60,9 @@ private:
 public:
   tree ();
   ~tree();
- // void print (tree_node *x,int h);
   tree_node* search (tree_node *r,int k);
   tree_node* zam (tree_node *z);
   tree_node* minimum (tree_node *z);
-  //tree_node* maximum (tree_node *z);
   int insert_node (tree_node *z);
   void delete_node (tree_node *z);
   void zam2 (tree_node *y, tree_node *x);
@@ -72,9 +70,6 @@ public:
   void delete_f(tree_node *x);
   void left_rotate (tree_node *x);
   void right_rotate (tree_node *x);
- // int check ();
- // int check2 (tree_node *x, int *res);
-  //int depth (tree_node *r);
   void delete_tree (tree_node *r);
   tree_node* get_root()const
   {	return root;}

@@ -28,8 +28,6 @@ public:
   {	return group;}
   char* get_name()const
   {	return (char*)name;}
-  /*char* get_name0()const
-  {	return (char*)name[0];}*/
   void set_phone(int iphone)
   {	phone = iphone;}
   void set_group(int igroup)
